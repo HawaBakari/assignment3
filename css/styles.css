@@ -17,7 +17,18 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.29em;
 }
+.indent
+    {margin-left: 20px;}
 
+ul,ol { list-style: none;}
+li { text-transform: uppercase; color: rgb(29, 29, 29)}
+
+
+a, a:focus, a:active { color: inherit;
+text-decoration: none;}
+a:hover {color: rgb(196, 196, 196);
+
+}
 /* ********************************************************************************************* */
 /* copy/paste code below to make color transitions ease in and out the same on various browsers */
 /* and to also use the various weights of the "brandon-grotesque" font that Pixar uses */
