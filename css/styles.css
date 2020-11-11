@@ -2,33 +2,36 @@ html {
     color:#fff
     box-sizing: border-box
     margin: 0px
-    color: rgba(29, 29, 29, 0)
-    font-size: 15px
-    font-weight: 500px
+    color: rgba(29, 29, 29, 0.7)
+    font-size: 15px;
+    font-weight: 500;
     font-style: normal;
     line-height: 1em;
 
     
 }
 
-.noodles {
-    color: white;
+.pixar {color: white;
     font-family: brandon-grotesque;
     text-transform: uppercase;
-    letter-spacing: 0.29em;
-}
-.indent
-    {margin-left: 20px;}
+    letter-spacing: 0.29em;}
 
-ul,ol { list-style: none;}
+.indent {margin-left: 20px;}
+
+ul,ol {list-style: none;}
 li { text-transform: uppercase; color: rgb(29, 29, 29)}
 
-
-a, a:focus, a:active { color: inherit;
+a, a:focus, a:active {color: inherit;
 text-decoration: none;}
-a:hover {color: rgb(196, 196, 196);
+a:hover {color: rgb(196, 196, 196);}
 
-}
+.flex-enabled {display:flex}
+
+nav ul li { margin-left: 1em; margin-right: 1.4em; white-space: nowrap;}
+
+nav {margin-top: 31px; margin-bottom: 31px;}
+
+.flex-right {flex:1; justify-content: flex-end; align-items: center;}
 /* ********************************************************************************************* */
 /* copy/paste code below to make color transitions ease in and out the same on various browsers */
 /* and to also use the various weights of the "brandon-grotesque" font that Pixar uses */
